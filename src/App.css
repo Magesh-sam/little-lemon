@@ -12,3 +12,38 @@
   color: black !important;
   font-weight: bolder !important;
 }
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 500px;
+  background: #495e57;
+}
+.intro-text{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+width: 80%;
+margin: auto;
+color: white;
+}
+.text-name{
+  color: #fd5;
+}
+.tablebtn{
+  width: 200px ;
+  padding: 10px 30px;
+  align-self: center ;
+  background: #fd5;
+  border-radius: 15px;
+
+}
+.intro-image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-image img{
+  border-radius: 15px;
+  position: fixed;
+  top: 320px;
+}
